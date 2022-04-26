@@ -9,17 +9,17 @@ public class SimpleInterest {
 		float principal,roi,time,si;
 		System.out.println("enter the principal amount:");
 		Scanner sc = new Scanner(System.in);
-		principal = sc.nextInt();
+		principal = sc.nextFloat();
 //		System.out.println("the principal amount is:" +principal);
 		
 		System.out.println("enter the roi");
-		roi = sc.nextInt();
+		roi = sc.nextFloat();
 		
 //		System.out.println("the rate of interest is: " + roi);
 		
 		System.out.println("enter the tenure:");
 		
-		time = sc.nextInt();
+		time = sc.nextFloat();
 		
 //		System.out.println("the tenure is:" + time);
 		
